@@ -4,6 +4,8 @@ Docker is an open-source platform that allows developers to automate the deploym
 # Where do containers live
 
 Container repository
+
 Private Repositories
+
 Public Repositories like DockerHub
 
