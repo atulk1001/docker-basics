@@ -3,7 +3,7 @@ Docker is an open-source platform that allows developers to automate the deploym
 
 Containers package an application and its dependencies together, ensuring that it runs consistently across different environments, such as development, testing, and production.
 
-# Where do containers live
+# Where do images live
 
 Container repository
 
