@@ -43,5 +43,16 @@ Public Repositories like DockerHub
 
 > docker run -p6001:6379 -d redis:6.2.17
 
+# Container with name
+
+When we run a container , some dummy name is assigned to running container
+
+to provide name we can add --name flag in command
+
+> docker run --name <redis-server> <redis>
+
+# Access to terminal of running Container
+
+> docker exec -it cd1b37d62174 /bin/bash
 
 
