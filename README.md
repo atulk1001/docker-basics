@@ -12,12 +12,12 @@ Private Repositories
 Public Repositories like DockerHub
 
 
-
-
-
-
-
 # Commands
+
+ > docker pull <image> (Dowloads latest image)
+
+ > docker pull <image>:<tag> (Downloads image with tag , tag is similar to version)
+ 
  > docker images (list of images)
 
  > docker run <image name> (run docker image, creates a new container)
