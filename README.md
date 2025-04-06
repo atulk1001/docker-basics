@@ -47,7 +47,7 @@ Public Repositories like DockerHub
 
 When we run a container , some dummy name is assigned to running container
 
-to provide name we can add --name flag in command
+To provide name we can add --name flag in command
 
 > docker run --name <redis-server> <redis>
 
