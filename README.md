@@ -15,7 +15,7 @@ Public Repositories like DockerHub
 
 # Commands
 
- > docker pull <image> (Dowloads latest image)
+ > docker pull \<image\> (Dowloads latest image)
 
  > docker pull <image>:<tag> (Downloads image with tag , tag is similar to version)
  
