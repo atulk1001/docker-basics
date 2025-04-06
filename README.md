@@ -37,7 +37,7 @@ Public Repositories like DockerHub
 
 # Binding local HOST to container PORT
 
-> docker run -p\<HOST\>:\<PORT\> -d redis:6.2.17
+> docker run -p\<Local machine PORT\>:\<Container PORT\> -d redis:6.2.17
 
 **Example:**
 
