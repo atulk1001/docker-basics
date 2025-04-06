@@ -53,6 +53,6 @@ docker run --name \<redis-server\> \<redis\>
 
 # Access to terminal of running Container
 
-> docker exec -it cd1b37d62174 /bin/bash
+> docker exec -it \<cd1b37d62174\> \</bin/bash\>
 
 
