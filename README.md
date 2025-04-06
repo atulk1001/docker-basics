@@ -20,8 +20,14 @@ Public Repositories like DockerHub
 # Commands
  > docker images (list of images)
 
- > docker run <image name> (run docker image)
+ > docker run <image name> (run docker image, creates a new container)
 
  > docker ps (List of running containers)
 
  > docker ps -a (all containers , running or stopped)
+
+ > docker run -d <image name> (Run container in detached mode)
+
+ > docker stop <id of container> (Stop the exisiting running container)
+
+ > docker start <id of container> (Start the exiting stopped container by id)
