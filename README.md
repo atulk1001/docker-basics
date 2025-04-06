@@ -49,7 +49,7 @@ When we run a container , some dummy name is assigned to running container
 
 To provide name we can add --name flag in command
 
-> docker run --name <redis-server> <redis>
+docker run --name <redis-server> <redis>
 
 # Access to terminal of running Container
 
