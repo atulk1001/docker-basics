@@ -1,4 +1,5 @@
 # What is Docker ?
+
 Docker is an open-source platform that allows developers to automate the deployment, scaling, and management of applications using lightweight, portable containers. 
 
 Containers package an application and its dependencies together, ensuring that it runs consistently across different environments, such as development, testing, and production.
@@ -31,3 +32,11 @@ Public Repositories like DockerHub
  > docker stop <id of container> (Stop the exisiting running container)
 
  > docker start <id of container> (Start the exiting stopped container by id)
+
+# Binding local HOST to container PORT
+
+docker run docker run -p<HOST>:<PORT> -d redis:6.2.17
+
+**Example:**
+
+docker run docker run -p6001:6379 -d redis:6.2.17
