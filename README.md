@@ -37,7 +37,7 @@ Public Repositories like DockerHub
 
 # Binding local HOST to container PORT
 
-> docker run -p<HOST>:<PORT> -d redis:6.2.17
+> docker run -p\<HOST\>:\<PORT\> -d redis:6.2.17
 
 **Example:**
 
@@ -49,7 +49,7 @@ When we run a container , some dummy name is assigned to running container
 
 To provide name we can add --name flag in command
 
-docker run --name \<redis-server\> <redis>
+docker run --name \<redis-server\> \<redis\>
 
 # Access to terminal of running Container
 
