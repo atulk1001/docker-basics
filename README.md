@@ -33,10 +33,15 @@ Public Repositories like DockerHub
 
  > docker start <id of container> (Start the exiting stopped container by id)
 
+ > docker logs <ContainerID / Container name>
+
 # Binding local HOST to container PORT
 
-docker run docker run -p<HOST>:<PORT> -d redis:6.2.17
+> docker run -p<HOST>:<PORT> -d redis:6.2.17
 
 **Example:**
 
-docker run docker run -p6001:6379 -d redis:6.2.17
+> docker run -p6001:6379 -d redis:6.2.17
+
+
+
